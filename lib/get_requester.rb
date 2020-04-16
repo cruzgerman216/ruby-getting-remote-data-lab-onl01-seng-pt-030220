@@ -1,4 +1,5 @@
-# Write your code here
+require 'open-uri'
+
 class GetRequester
   attr_accessor :url
   def initialize(url)
@@ -6,6 +7,7 @@ class GetRequester
   end
 
   def get_response_body
-
+    uri = URI.parse(@url)
+    uri.open
   end
 end
