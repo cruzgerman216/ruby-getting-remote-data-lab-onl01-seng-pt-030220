@@ -1,7 +1,7 @@
 # Write your code here
 class GetRequester
 
-  def intialize(url)
+  def initialize(url)
 
   end
 end
