@@ -12,7 +12,7 @@ class GetRequester
     uri.open.string
   end
 
-  def parse_json 
-    
+  def parse_json
+
   end
 end
